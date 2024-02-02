@@ -1,18 +1,22 @@
 function checkForSpam(message) {
   const messageLowerCase = message.toLowerCase();
 
-  if (messageLowerCase.includes('spam' || 'sale')) {
-    return true;
-  } else {
-    return false;
-  }
+  // if (messageLowerCase.includes('spam')) {
+  //   return true;
+  // } else if (messageLowerCase.includes('sale')) {
+  //   return true;
+  // } else {
+  //   return false;
+  // }
 
-  //   або
-  //   if (message.toLowerCase().includes('spam' || 'sale')) {
-  //     return true;
-  //   } else {
-  //     return false;
-  //   }
+  // або
+  // if (message.toLowerCase().includes('spam')) {
+  //   return true;
+  // } else if (message.toLowerCase().includes('sale')) {
+  //   return true;
+  // } else {
+  //   return false;
+  // }
 }
 
 console.log(checkForSpam('Latest technology news')); // false

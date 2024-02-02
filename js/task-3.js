@@ -17,6 +17,13 @@ function checkForSpam(message) {
   // } else {
   //   return false;
   // }
+
+  //або
+  // if (messageLowerCase.includes('spam') || messageLowerCase.includes('sale')) {
+  //   return true;
+  // } else {
+  //   return false;
+  // }
 }
 
 console.log(checkForSpam('Latest technology news')); // false
